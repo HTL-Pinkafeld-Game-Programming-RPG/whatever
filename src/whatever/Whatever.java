@@ -33,7 +33,6 @@
 package whatever;
 
 import com.jme3.app.SimpleApplication;
-import com.jme3.asset.plugins.ZipLocator;
 import com.jme3.bullet.BulletAppState;
 import com.jme3.bullet.collision.shapes.CapsuleCollisionShape;
 import com.jme3.bullet.collision.shapes.CollisionShape;
@@ -87,10 +86,7 @@ public class Whatever extends SimpleApplication
     setUpKeys();
     setUpLight();
 
-    // We load the scene from the zip file and adjust its size.
-    assetManager.registerLocator("town.zip", ZipLocator.class);
-    sceneModel = assetManager.loadModel("main.scene");
-    sceneModel.setLocalScale(2f);
+    sceneModel = assetManager.loadModel("Scenes/world.j3o");
 
     // We set up collision detection for the scene by creating a
     // compound collision shape and a static RigidBodyControl with mass zero.
@@ -121,7 +117,7 @@ public class Whatever extends SimpleApplication
   private void setUpLight() {
     // We add light so we see the scene
     AmbientLight al = new AmbientLight();
-    al.setColor(ColorRGBA.White.mult(1.3f));
+    al.setColor(ColorRGBA.White.mult(0.5f));
     rootNode.addLight(al);
 
     DirectionalLight dl = new DirectionalLight();
