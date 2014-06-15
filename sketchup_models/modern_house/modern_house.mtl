@@ -120,16 +120,46 @@ Ka 0.000000 0.000000 0.000000
 Kd 0.545098 0.000000 0.000000
 Ks 0.330000 0.330000 0.330000
 
-newmtl M_0003_DeepPink
+newmtl _Translucent_Glass_Blue_2
 Ka 0.000000 0.000000 0.000000
-Kd 1.000000 0.078431 0.576471
+Kd 0.729412 0.631373 0.541176
 Ks 0.330000 0.330000 0.330000
+d 0.500000
+
+newmtl _Wood_Cherry_Original_2
+Ka 0.000000 0.000000 0.000000
+Kd 0.239216 0.133333 0.062745
+Ks 0.330000 0.330000 0.330000
+map_Kd modern_house/_Wood_Cherry_Original_2.jpg
+
+newmtl _Wood_Cherry_Original_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.266667 0.152941 0.070588
+Ks 0.330000 0.330000 0.330000
+map_Kd modern_house/_Wood_Cherry_Original_1.jpg
+
+newmtl _Wood_Cherry_Original_3
+Ka 0.000000 0.000000 0.000000
+Kd 0.349020 0.196078 0.094118
+Ks 0.330000 0.330000 0.330000
+map_Kd modern_house/_Wood_Cherry_Original_3.jpg
 
 newmtl Translucent_Glass_Blue
 Ka 0.000000 0.000000 0.000000
 Kd 0.392157 0.584314 0.929412
 Ks 0.330000 0.330000 0.330000
 d 0.500000
+
+newmtl _Wood_Cherry_Original_4
+Ka 0.000000 0.000000 0.000000
+Kd 0.286275 0.160784 0.078431
+Ks 0.330000 0.330000 0.330000
+map_Kd modern_house/_Wood_Cherry_Original_4.jpg
+
+newmtl M_0003_DeepPink
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.078431 0.576471
+Ks 0.330000 0.330000 0.330000
 
 newmtl M_0053_Ivory
 Ka 0.000000 0.000000 0.000000
